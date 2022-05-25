@@ -1,0 +1,94 @@
+.backimage{
+  width: 1920px;
+  height: 999.4px;
+  padding: 168px 41px 189.4px 180px;
+  object-fit: contain;
+  --midnight: #030616;
+  background: linear-gradient(to right, rgba(3, 6, 22, 0) 69%, var(--midnight)), linear-gradient(to bottom, rgba(3, 6, 22, 0), rgba(3, 6, 22, 0.02) 52%, var(--midnight) 97%), radial-gradient(circle at 56% 54%, rgba(3, 6, 22, 0), var(--midnight) 79%), url("../../assets/images/lolBanner.jpg");
+
+}
+
+.reco{
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  width: 217px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 200px;
+
+}
+.lol{
+  width: 609px;
+  height: 85px;
+  margin: 95px 1080px 11px 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 72px;
+  color: white;
+}
+.divlol{
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 95px;
+
+}
+.text{
+  width: 501px;
+  height: 72px;
+  margin: 11px 1188px 20px 0;
+  opacity: 0.6;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0);
+  line-height: 2.4;
+}
+.textSpan{
+  background-color: rgba(0, 0, 0, 0);
+}
+.botones{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+}
+.install {
+  width: 213px;
+  height: 66px;
+  border-radius: 4px;
+  background-color: #1d20cb;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 38px;
+  text-align: center;
+  line-height: 43px;
+}
+.install > span {
+  width: 152px;
+  height: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  background-color:#1d20cb ;
+}
+.add {
+  width: 213px;
+  height: 66px;
+  border-radius: 4px;
+  background-color: rgb(74, 74, 74) ;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 38px;
+  text-align: center;
+  line-height: 43px;
+}
+.add > span {
+  width: 152px;
+  height: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  background-color:rgb(74, 74, 74) ;
+}

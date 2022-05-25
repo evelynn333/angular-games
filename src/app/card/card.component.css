@@ -1,0 +1,48 @@
+.card {
+  padding: 20px;
+}
+.img {
+  width: 359px;
+  height: 210px;
+}
+img {
+  border-radius: 10px;
+}
+
+.button {
+  width: 108px;
+  height: 43px;
+  text-align: center;
+  line-height: 43px;
+  background-color: #2529d8;
+  border-radius: 4px;
+}
+.button > span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  background-color: #2529d8;
+}
+.name {
+  width: 194px;
+  height: 23px;
+  color: white;
+  margin: 10px 52px 30px 0;
+  font-size: 20px;
+}
+.price {
+  width: 76px;
+  height: 36px;
+  font-size: 15px;
+  color: white;
+}
+.detalles {
+  width: 246px;
+}
+.footer {
+  display: flex;
+  padding: 10px;
+}

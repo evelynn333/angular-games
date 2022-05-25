@@ -1,0 +1,17 @@
+<div class="card" >
+  <div class="img"  >
+    <img src="assets/images/{{ gameDetail.img }}" alt="{{ gameDetail.img }}" />
+  </div>
+  <div class="footer">
+    <div class="detalles">
+      <span class="name">
+        {{ <gameDetail class="name"></gameDetail> }}
+      </span>
+      <br />
+      <span class="price"> {{ gameDetail.price }} USD </span>
+    </div>
+    <a routerLink="/game/{{ gameDetail.id }}">
+      <div class="button"><span> BUY NOW </span></div>
+    </a>
+  </div>
+</div>
