@@ -1,0 +1,148 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Horizon Zero Dawn",
+      "img": "horizon.jpg",
+      "price": "49,95",
+      "descri": "Horizon Zero Dawn es un videojuego de rol con elementos de aventura en tercera persona. El juego se ambienta en un mundo post-apocalíptico compuesto por regiones rurales, zonas montañosas, bosques, desiertos y montañas nevadas. Cuenta con un ciclo diurno y nocturno, además de un sistema meteorológico dinámico. Los jugadores controlan a Aloy, una hábil arquera y cazadora de la tribu de los Nora. Con sus habilidades de combate, Aloy puede eliminar a sus enemigos de diversas maneras haciendo uso de las trampas, del arco, los explosivos y la lanza. Existen diferentes tipos de arcos de combate como: el arco de caza y de guerra (para combates a distancia media) y el arco de precisión (capaz de lanzar flechas de precisión para combates a larga distancia). El jugador puede crear diferentes tipos de flechas y municiones. Además, Aloy también cuenta con la honda (que sirve para lanzar bombas explosivas, eléctricas y de congelación) y con la aturdidora (que se usa para colocar trampas de cable con puntos de anclaje).",
+      "imgDescri": "horizonDetails.jpg",
+      "imgDetalle": "horizonDescri.jpg"
+    },
+    {
+      "id": 2,
+      "name": "God of War",
+      "img": "godWar.jpg",
+      "price": "149,95",
+      "descri": "God of War es un videojuego de acción y aventuras desarrollado por Santa Monica Studio y publicado por Sony Computer Entertainment (SCE). Lanzado por primera vez el 22 de marzo de 2005 para la consola PlayStation 2 (PS2), es la primera entrega de la serie del mismo nombre y la tercera cronológicamente. Basado libremente en la mitología griega, está ambientado en la antigua Grecia con la venganza como motivo central. El jugador controla al protagonista Kratos, un guerrero espartano que sirve a los dioses del Olimpo. La diosa Atenea le encarga a Kratos que mate a Ares, el dios de la guerra y ex mentor de Kratos que engañó a Kratos para que matara a su esposa e hija. Mientras Ares asedia Atenas por odio a Atenea, Kratos se embarca en una búsqueda para encontrar el único objeto capaz de detener al dios de una vez por todas: la Caja de Pandora.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Red Dead Redemption",
+      "img": "redDead.jpg",
+      "price": "189,95",
+      "descri": "Red Dead Redemption es un videojuego no lineal de acción-aventura wéstern desarrollado por Rockstar San Diego. La historia de Red Dead Redemption transcurre en los últimos años del lejano oeste estadounidense, en 1911, y narra la historia del antiguo bandido John Marston, que es chantajeado por los agentes federales que tienen amenazada a su familia para que ayude a imponer la ley en la frontera mexicano-estadounidense y capture a su antiguo compañero, y actual bandido, Bill Williamson. La acción del videojuego se sitúa en los estados ficticios de New Austin, Nuevo Paraíso y West Elizabeth.",
+      "imgDescri": "redDetail.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Witcher 3: Wild Hunt",
+      "img": "witcher3.jpg",
+      "price": "39,95",
+      "descri": "Es un juego de perspectiva en tercera persona, el jugador controla al protagonista Geralt de Rivia, un cazador de monstruos conocido como Lobo Blanco, es un brujo, el cual emprende un largo viaje a través de Los reinos del norte. El jugador lucha contra el peligroso mundo mediante magia y espadas, mientras interactúa con los NPC y completa tanto misiones secundarias como la misión principal de la historia, La cual es encontrar a la hija adoptiva de Geralt, Ciri, y detener la profecía del invierno blanco.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hogwarts Legacy",
+      "img": "hogwarts.jpg",
+      "price": "49,95",
+      "descri": "Hogwarts Legacy es un juego de rol inmersivo en mundo abierto que se inspira de los libros de la saga Harry Potter. Disfruta del Hogwarts del siglo XIX. Tu personaje es un alumno o alumna del famoso colegio que tiene la clave de un antiguo secreto que amenaza con destruir el mundo mágico. Ahora puedes tomar el control de la acción y ser el centro de tu propia aventura en el mundo mágico. El legado está en tus manos.Aprende hechizos, elabora pociones, cultiva plantas y cuida de animales fantásticos a lo largo del viaje. Sé seleccionado para tu casa, forja relaciones y aprende las habilidades que te conducirán a convertirte en el mago o bruja que quieras ser.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Final Fantasy XVI",
+      "img": "fantasy.jpg",
+      "price": "149,95",
+      "descri": "Final Fantasy XVI es un videojuegojuego de rol de acción ambientado en el mundo de fantasía; Valisthea, donde la gente vive cómodamente gracias a las montañas de cristal llamadas Mothercrystals. El mundo está controlado por seis facciones: el Gran Ducado de Rosaria, el Sacro Imperio de Sanbreque, el Reino de Waloed, la República Dhalmekian, el Reino de Hierro y el Dominio Cristalino. Una parte central de la trama son los Eikons, monstruos convocados controlados o manifestados a través de humanos llamados Dominantes.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kena, bridge of spirits",
+      "img": "kena.jpg",
+      "price": "189,95",
+      "descri": "Kena: Bridge of Spirits es un videojuego de acción y aventura de 2021desarrollado y publicado por Ember Lab. La historia sigue a Kena, una joven guía espiritual que usa sus habilidades mágicas para ayudar a las personas fallecidas a pasar del mundo físico al espiritual . El juego se presenta a través de una perspectiva en tercera persona . El jugador usa el bastón de Kena para atacar a los enemigos y su habilidad de pulso para defenderse de los ataques. Tienen la tarea de recolectar pequeños compañeros espirituales conocidos como Rot, que ayudan a completar tareas y luchar contra los enemigos.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Godbye volcano highs",
+      "img": "vulcano.jpg",
+      "price": "39,95",
+      "descri": "El mundo está a punto de explotar. Justo a tiempo para el último año. Solo la suerte de Fang: finalmente descubren lo que quieren de la vida, y ahora el mundo está a punto de explotar. Goodbye Volcano High es un juego de aventuras cinematográficas basado en elecciones y basado en historias sobre el crecimiento personal, la aceptación y el poder de la comunidad. ¿Qué harás al final de una era?",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Horizon: Forbidden West",
+      "img": "horizonForbidden.jpg",
+      "price": "149,95",
+      "descri": "Los jugadores controlan una vez más a Aloy, una joven guerrera y cazadora de la tribu Nora. Al igual que Horizon Zero Dawn, Aloy puede participar en misiones secundarias además de las principales, entre otras actividades. Al completar las diferentes misiones, Aloy obtiene experiencia y aumenta de nivel ganando puntos de habilidad. Estos puntos pueden distribuirse en las diferentes ramas del árbol de habilidades. Los recursos de las máquinas destruidas así como recursos de la vida natural y animal siguen siendo útiles. Con las habilidades de combate, Aloy se vale del arco, la honda, la lanza y las trampas para combatir y eliminar a sus enemigos.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 10,
+      "name": "GhostWire: Tokyo",
+      "img": "ghostWire.jpg",
+      "price": "49,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Bugsnax",
+      "img": "bugsnax.jpg",
+      "price": "189,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Resident Evil Village",
+      "img": "resident.jpg",
+      "price": "39,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Deathloop",
+      "img": "deathloop.jpg",
+      "price": "49,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Returnal",
+      "img": "returnal.jpg",
+      "price": "149,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Jett: The Far Shore",
+      "img": "jett.jpg",
+      "price": "189,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    },
+    {
+      "id": 16,
+      "name": "God of War: Ragnarok",
+      "img": "godWarRagnarok.jpg",
+      "price": "39,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
+    }
+  ]
+}

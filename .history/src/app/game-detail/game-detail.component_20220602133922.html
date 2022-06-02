@@ -1,0 +1,40 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+</style>
+
+<body>
+  <div *ngIf="game">
+    <div
+      class="imagen"
+      style="
+    
+      "
+    >
+      <div class="info">
+        <i class="icono fa-solid fa-circle-exclamation"></i>
+        <span class="new"> NEW GAME </span>
+        <br />
+        <span class="name">
+          {{ game.name }}
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="precio">{{ game.price }}€</div>
+      <div class="install"><span>INSTALL GAME</span></div>
+    </div>
+    <div class="cuerpo">
+      <div class="kratos">
+        <img src="assets/images/{{game.imgDetalle}} " alt="imagenKratos" />
+      </div>
+      <span class="descri">{{ game.descri }} </span>
+    </div>
+  </div>
+</body>
