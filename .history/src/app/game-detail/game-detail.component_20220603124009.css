@@ -32,9 +32,7 @@ footer{
   color: white;
   background-color: rgba(0, 0, 0, 0);
 }
-a{
-  background-color: rgba(0, 0, 0, 0);
-}
+a{}
 .name {
   width: 351px;
   height: 85px;

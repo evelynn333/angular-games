@@ -33,7 +33,7 @@ footer{
   background-color: rgba(0, 0, 0, 0);
 }
 a{
-  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
 }
 .name {
   width: 351px;

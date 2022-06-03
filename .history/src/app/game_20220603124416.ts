@@ -6,5 +6,5 @@ export interface Game {
   descri: string;
   imgDescri: string;
   imgDetalle: string;
-  link: string;
+  link:
 }
