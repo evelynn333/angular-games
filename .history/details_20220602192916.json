@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Horizon: Forbidden West",
       "img": "horizonForbidden.jpg",
-      "price": "39,95",
+      "price": "149,95",
       "descri": "Los jugadores controlan una vez más a Aloy, una joven guerrera y cazadora de la tribu Nora. Al igual que Horizon Zero Dawn, Aloy puede participar en misiones secundarias además de las principales, entre otras actividades. Al completar las diferentes misiones, Aloy obtiene experiencia y aumenta de nivel ganando puntos de habilidad. Estos puntos pueden distribuirse en las diferentes ramas del árbol de habilidades. Los recursos de las máquinas destruidas así como recursos de la vida natural y animal siguen siendo útiles. Con las habilidades de combate, Aloy se vale del arco, la honda, la lanza y las trampas para combatir y eliminar a sus enemigos.",
       "imgDescri": "horizDetails.jpg",
       "imgDetalle": "horizDescri.jpg"
@@ -94,8 +94,8 @@
       "id": 11,
       "name": "Bugsnax",
       "img": "bugsnax.jpg",
-      "price": "19,95",
-      "descri": "Bugsnax tiene lugar en un mundo poblado por humanoides peludos parecidos a muppets llamados Grumpuses . El juego se desarrolla en Snaktooth Island, una isla misteriosa habitada únicamente por criaturas llamadas Bugsnax que son mitad bichos y mitad bocadillos. Las ruinas de una antigua civilización Grumpus se pueden encontrar alrededor de la isla, junto con sus restos óseos. Al descubrir la existencia de Bugsnax, el explorador caído en desgracia Elizabert Lizbert Megafig dirige un equipo de expedición a la isla para estudiarlos, estableciendo la ciudad improvisada de Snaxburg como base de operaciones, pero desaparece en circunstancias misteriosas.",
+      "price": "189,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
       "imgDescri": "bugsDetails.jpg",
       "imgDetalle": "bugsDescri.jpg"
     },
@@ -103,28 +103,28 @@
       "id": 12,
       "name": "Resident Evil Village",
       "img": "resident.jpg",
-      "price": "49,95",
-      "descri": "Resident Evil Village es un juego de terror de supervivencia de 2021desarrollado y publicado por Capcom . Es la secuela de Resident Evil 7: Biohazard (2017). Los jugadores controlan a Ethan Winters , que busca a su hija secuestrada en un pueblo lleno de criaturas mutantes. Village mantiene elementos de terror de supervivencia de juegos anteriores de Resident Evil , con jugadores que buscan elementos en los entornos y administran recursos. Sin embargo, agrega una jugabilidad más orientada a la acción, con mayor cantidad de enemigos y un mayor énfasis en el combate.",
-      "imgDescri": "resiDetails.jpg",
-      "imgDetalle": "resiDescri.jpg"
+      "price": "39,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     },
     {
       "id": 13,
       "name": "Deathloop",
       "img": "deathloop.jpg",
       "price": "49,95",
-      "descri": "Deathloop te transporta a la misteriosa isla de Blackreef , donde una eterna lucha entre dos extraordinarios asesinos determinará el futuro de la isla. Como Colt , debes encontrar una manera de poner fin al ciclo temporal que atrapa a la isla en un ciclo sin fin, todo mientras eres perseguido por los habitantes de la isla. Usando tus poderosas armas y habilidades , deberás eliminar 8 objetivos clave en la impresionante pero caótica isla antes de que se reinicie el día para romper el ciclo de una vez por todas. Pero al acecho en las sombras está la asesina rival Julianna , cuya única misión es sacar a Colt y mantener el ciclo en marcha. Aprenda de cada ciclo, pruebe nuevos caminos y enfoques, y rompa el ciclo.",
-      "imgDescri": "deatDetails.jpg",
-      "imgDetalle": "deatDescri.jpg"
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     },
     {
       "id": 14,
       "name": "Returnal",
       "img": "returnal.jpg",
-      "price": "29,95",
+      "price": "149,95",
       "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
-      "imgDescri": "retuDetail.jpg",
-      "imgDetalle": "retuDescri.jpg"
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     },
     {
       "id": 15,

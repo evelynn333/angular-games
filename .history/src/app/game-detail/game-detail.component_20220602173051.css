@@ -21,9 +21,8 @@ footer{
   color: white;
   text-align: center;
   margin-bottom: 5px;
-  margin-top: 90px;
   padding: 10px;
-  background-color: #24262e;
+  background-color: rgb(78, 78, 78)
 }
 .new {
   width: 66px;

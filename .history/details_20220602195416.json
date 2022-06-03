@@ -113,18 +113,18 @@
       "name": "Deathloop",
       "img": "deathloop.jpg",
       "price": "49,95",
-      "descri": "Deathloop te transporta a la misteriosa isla de Blackreef , donde una eterna lucha entre dos extraordinarios asesinos determinará el futuro de la isla. Como Colt , debes encontrar una manera de poner fin al ciclo temporal que atrapa a la isla en un ciclo sin fin, todo mientras eres perseguido por los habitantes de la isla. Usando tus poderosas armas y habilidades , deberás eliminar 8 objetivos clave en la impresionante pero caótica isla antes de que se reinicie el día para romper el ciclo de una vez por todas. Pero al acecho en las sombras está la asesina rival Julianna , cuya única misión es sacar a Colt y mantener el ciclo en marcha. Aprenda de cada ciclo, pruebe nuevos caminos y enfoques, y rompa el ciclo.",
-      "imgDescri": "deatDetails.jpg",
-      "imgDetalle": "deatDescri.jpg"
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     },
     {
       "id": 14,
       "name": "Returnal",
       "img": "returnal.jpg",
-      "price": "29,95",
+      "price": "149,95",
       "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
-      "imgDescri": "retuDetail.jpg",
-      "imgDetalle": "retuDescri.jpg"
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     },
     {
       "id": 15,
