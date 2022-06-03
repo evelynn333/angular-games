@@ -130,19 +130,19 @@
       "id": 15,
       "name": "Jett: The Far Shore",
       "img": "jett.jpg",
-      "price": "89,95",
-      "descri": "JETT: The Far Shore nos pone en la piel de Mei, tripulante de una nave destinada a explorar un planeta que coincide con lo descrito en unas profecías. Tras un viaje de un milenio en letargo, formará parte del equipo de apenas una decena de personas que debe iniciar el contacto con el nuevo mundo. Sus objetivos pasan por conocer mejor el entorno e informar a la nave nodriza de las condiciones que esperan al resto de viajantes, que esperan a unos kilómetros de la superficie aún dormidos.",
-      "imgDescri": "jetDetails.jpg",
-      "imgDetalle": "jetDescri.jpg"
+      "price": "189,95",
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     },
     {
       "id": 16,
       "name": "God of War: Ragnarok",
       "img": "godWarRagnarok.jpg",
       "price": "39,95",
-      "descri": "Kratos y Atreus deberán viajar a cada uno de los nueve reinos en busca de respuestas para prepararse para la profetizada batalla que supondrá el fin del mundo. Juntos, Kratos y Atreus se adentran en los nueve reinos en busca de respuestas mientras las fuerzas de Asgard se preparan para la guerra. A lo largo de su aventura, explorarán paisajes mitológicos increíbles, reunirán aliados de los nueve reinos y se enfrentarán a imponentes enemigos con aspecto de monstruos y dioses nórdicos. A medida que se avecina la amenaza del Ragnarök, Kratos y Atreus tendrán que elegir entre la seguridad de su familia y la de los reinos...",
-      "imgDescri": "ragDetails.jpg",
-      "imgDetalle": "ragDescri.jpg"
+      "descri": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Feugiat in fermentum posuere urna. Amet nisl purus in mollis nunc. Tellus orci ac auctor augue mauris augue. Dolor morbi non arcu risus quis varius quam quisque id. Et malesuada fames ac turpis egestas sed tempus. Eget mi proin sed libero enim sed faucibus. Turpis massa sed elementum tempus. Congue eu consequat ac felis donec.",
+      "imgDescri": "godWarDetails.jpg",
+      "imgDetalle": "kratos.jpg"
     }
   ]
 }
