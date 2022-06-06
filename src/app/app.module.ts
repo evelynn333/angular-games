@@ -9,6 +9,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { BannerComponent } from './banner/banner.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BannerComponent } from './banner/banner.component';
     CardComponent,
     GameDetailComponent,
     HomepageComponent,
-    BannerComponent
+    BannerComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

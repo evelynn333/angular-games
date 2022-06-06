@@ -1,13 +1,14 @@
 h4 {
   padding: 20px;
   color: white;
-  width: 10px;
+}
+* {
+  background-color: #24262e;
 }
 .grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
-
 }
 footer {
   color: white;

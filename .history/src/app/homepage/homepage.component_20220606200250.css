@@ -1,7 +1,6 @@
 h4 {
   padding: 20px;
   color: white;
-  width: 10px;
 }
 .grid {
   display: grid;
@@ -9,6 +8,7 @@ h4 {
   padding: 10px;
 
 }
+*
 footer {
   color: white;
   text-align: center;
