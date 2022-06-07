@@ -4,13 +4,30 @@
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
   crossorigin="anonymous"
 />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <i class="icono fa-solid fa-fire"></i>
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Juegos</a>
+    <a class="navbar-brand" href="#">Catálogo</a>
     <form class="d-flex">
+      <i class="icono fa-solid fa-magnifying-glass"></i>
       <div class="search">
-        <input [formControl]="search" type="text" placeholder="Buscar..." />
+        <input
+          [formControl]="search"
+          class="buscar"
+          type="text"
+          placeholder="Buscar..."
+        />
       </div>
+      <i class="icono fa-regular fa-user"></i>
+      <button type="button" class="btn btn-primary">LOGIN</button>
     </form>
   </div>
 </nav>
