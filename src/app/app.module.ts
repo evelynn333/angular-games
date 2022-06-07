@@ -10,8 +10,11 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { BannerComponent } from './banner/banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
 import { SearchPipe } from './pipes/search.pipe';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
+
+
 
 @NgModule({
   declarations: [
@@ -21,8 +24,10 @@ import { SearchPipe } from './pipes/search.pipe';
     HomepageComponent,
     BannerComponent,
     NavbarComponent,
-
     SearchPipe,
+    LoginComponent,
+    RegistroComponent,
+
   ],
   imports: [
     BrowserModule,
