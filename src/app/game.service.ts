@@ -8,7 +8,6 @@ import data from '../../details.json';
 })
 export class GameService {
   constructor(private http: HttpClient) {}
-  
   private gamesUrl = 'http://localhost:3000/games';
 
   getGames(): Observable<Game[]> {

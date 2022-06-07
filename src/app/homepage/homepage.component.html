@@ -1,12 +1,13 @@
 <div class="homepage">
-  <app-navbar></app-navbar>
+  <app-navbar (search)="handleSearch($event)"></app-navbar>
   <app-banner></app-banner>
   <h4>BETSELLERS</h4>
   <div class="grid">
     <app-card
-      *ngFor="let gameDetail of gamesDetails"
+      *ngFor="let gameDetail of gamesDetails | search: filtroValor"
       [gameDetail]="gameDetail"
-    ></app-card>
+      >{{ gameDetail.name }}</app-card
+    >
   </div>
   <footer>@Evelyn Cutillas Navarro || Todos los derechos reservados</footer>
 </div>

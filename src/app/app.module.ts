@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BannerComponent } from './banner/banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+import { SearchPipe } from './pipes/search.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     GameDetailComponent,
     HomepageComponent,
     BannerComponent,
-    NavbarComponent
+    NavbarComponent,
+
+    SearchPipe,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
