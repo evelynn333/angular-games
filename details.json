@@ -1,10 +1,13 @@
 {
   "users": [
     {
-      "email":"eve@mail.com",
-      "password":"1234"
-  }
-],
+      "nombre": "Evelyn",
+      "apellidos": "Cutillas Navarro",
+      "email": "e@mail.com",
+      "password": "1234",
+      "id": 1
+    }
+  ],
   "games": [
     {
       "id": 1,

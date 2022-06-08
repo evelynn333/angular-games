@@ -9,35 +9,31 @@
     <h3>Registro</h3>
     <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email...</label>
-        <input
-          type="email"
-          class="form-control"
-          required
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
+        <label for="exampleInputEmail1" class="form-label">Nombre...</label>
+        <input type="nombre" class="form-control" formControlName="nombre" required
+          id="exampleInputEmail1" aria-describedby="emailHelp" />
       </div>
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label"
-          >Password...</label
-        >
-        <input
-          type="password"
-          required
-          class="form-control"
-          id="exampleInputPassword1"
-        />
+        <label for="exampleInputEmail1" class="form-label">Apellidos...</label>
+        <input type="apellidos" class="form-control" formControlName="apellidos" required
+          id="exampleInputEmail1" aria-describedby="emailHelp" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email...</label>
+        <input type="email" class="form-control" formControlName="email" required
+          id="exampleInputEmail1" aria-describedby="emailHelp" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password...</label>
+        <input type="password" formControlName="password" required
+          class="form-control" id="exampleInputPassword1"/>
       </div>
       <div class="span">
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary">Registrar</button>
         <br />
         <br />
-        <span
-          >Ya estás registrado? <a routerLink="/login">Login</a></span
-        >
+        <span>Ya estás registrado? <a routerLink="/login">Login</a></span>
       </div>
     </form>
   </div>
 </div>
-
