@@ -5,6 +5,7 @@
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 />
+
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 </style>
@@ -26,6 +27,9 @@
     </div>
     <div class="container">
       <div class="precio">{{ game.price }}€</div>
+
+       <div  *ngIf="this.cookie" [ngStyle]="{'display': 'block'}"><a href="">Añadir a favoritos</a></div>
+
       <a target="_blank" href="{{game.link}}"> <div class="install"><span>INSTALL GAME</span></div></a>
     </div>
     <div class="cuerpo">

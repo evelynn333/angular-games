@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Output } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { debounceTime } from 'rxjs';
 
@@ -7,7 +7,11 @@ import { debounceTime } from 'rxjs';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
 })
+
 export class NavbarComponent {
+  cookie = localStorage.getItem('usuario');
+
+
   ngOnInit() {
     this.search.valueChanges
       .pipe(debounceTime(300))
@@ -15,4 +19,10 @@ export class NavbarComponent {
   }
   search = new FormControl('');
   @Output('search') searchEmitter = new EventEmitter<string>();
+
+  logout(){
+    localStorage.removeItem('usuario');
+    window.location.reload();
+  }
+
 }

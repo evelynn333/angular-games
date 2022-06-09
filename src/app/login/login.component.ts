@@ -26,7 +26,8 @@ export class LoginComponent implements OnInit {
       });
       if(user){
         alert('Login correcto!');
-        this.loginForm.reset()
+        localStorage.setItem('usuario', user.email);
+        this.loginForm.reset();
       this.router.navigate([""])
       }else{
         alert("El usuario o la contraseña son incorrectos")

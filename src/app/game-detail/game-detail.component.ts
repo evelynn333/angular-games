@@ -11,7 +11,7 @@ import { GameService } from '../game.service';
 })
 export class GameDetailComponent implements OnInit {
   @Input() game?: Game;
-
+  cookie = localStorage.getItem('usuario');
   constructor(
     private gameServcice: GameService,
     private route: ActivatedRoute
@@ -25,4 +25,6 @@ export class GameDetailComponent implements OnInit {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.gameServcice.getGame(id).subscribe((game) => (this.game = game));
   }
+
+
 }

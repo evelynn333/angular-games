@@ -19,15 +19,12 @@
     <form class="d-flex">
       <i class="icono fa-solid fa-magnifying-glass"></i>
       <div class="search">
-        <input
-          [formControl]="search"
-          class="buscar"
-          type="text"
-          placeholder="Buscar..."
-        />
+        <input [formControl]="search" class="buscar" type="text" placeholder="Buscar..."/>
       </div>
       <i class="icono fa-regular fa-user"></i>
-      <button type="button" class="btn btn-primary" routerLink="/login">LOGIN</button>
+      <div *ngIf="!this.cookie" [ngStyle]="{'display': 'block'}"> <button  type="button" class="btn btn-primary" routerLink="/login">LOGIN</button></div>
+      <div *ngIf="this.cookie" [ngStyle]="{'display': 'block'}"><p class="usuario"> {{this.cookie}}</p></div>
+      <div *ngIf="this.cookie" [ngStyle]="{'display': 'block'}"><button type="button" (click)="logout()" class="btn btn-light">Logout</button></div>
     </form>
   </div>
 </nav>
