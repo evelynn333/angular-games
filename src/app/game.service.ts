@@ -7,6 +7,7 @@ import data from '../../details.json';
   providedIn: 'root',
 })
 export class GameService {
+  
   constructor(private http: HttpClient) {}
   private gamesUrl = 'http://localhost:3000/games';
 

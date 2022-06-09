@@ -6,6 +6,13 @@
       "email": "e@mail.com",
       "password": "1234",
       "id": 1
+    },
+    {
+      "nombre": "admin",
+      "apellidos": "admin",
+      "email": "admin@mail.com",
+      "password": "1234",
+      "id": 2
     }
   ],
   "games": [
@@ -168,6 +175,16 @@
       "imgDescri": "ragDetails.jpg",
       "imgDetalle": "ragDescri.jpg",
       "link": "https://www.instant-gaming.com/es/9312-comprar-god-of-war-ragnarok-pc-juego/"
+    },
+    {
+      "id": 17,
+      "name": "ee",
+      "img": "e",
+      "price": "2",
+      "descri": "dddd",
+      "imgDescri": "e",
+      "imgDetalle": "e",
+      "link": "ee"
     }
   ]
 }

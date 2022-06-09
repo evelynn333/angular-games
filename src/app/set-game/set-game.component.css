@@ -1,0 +1,29 @@
+* {
+  background-color: #24262e;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  text-align: center;
+}
+.icono{
+  align-items: center;
+  text-align: center;
+  color: white;
+
+}
+.formulario {
+  color: white;
+  width: 60%;
+  position: absolute;
+  margin-top: 40%;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 30px;
+}
+.span {
+  text-align: center;
+}

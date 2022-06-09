@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchPipe } from './pipes/search.pipe';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
+import { SetGameComponent } from './set-game/set-game.component';
 
 
 
@@ -27,6 +28,7 @@ import { RegistroComponent } from './registro/registro.component';
     SearchPipe,
     LoginComponent,
     RegistroComponent,
+    SetGameComponent,
 
   ],
   imports: [
