@@ -18,6 +18,9 @@
   height: 29px;
   background-color: rgba(0, 0, 0, 0);
 }
+button{
+  background-color: rgba(0, 0, 0, 0);
+}
 footer{
   color: white;
   text-align: center;
