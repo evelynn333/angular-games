@@ -12,6 +12,7 @@ import { GameService } from '../game.service';
 export class GameDetailComponent implements OnInit {
   @Input() game?: Game;
   cookie = localStorage.getItem('usuario');
+
   constructor(
     private gameServcice: GameService,
     private route: ActivatedRoute
@@ -19,6 +20,7 @@ export class GameDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getGame();
+
   }
 
   getGame(): void {

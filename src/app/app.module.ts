@@ -29,7 +29,6 @@ import { SetGameComponent } from './set-game/set-game.component';
     LoginComponent,
     RegistroComponent,
     SetGameComponent,
-
   ],
   imports: [
     BrowserModule,

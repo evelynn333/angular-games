@@ -9,8 +9,8 @@
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 </style>
-
 <body>
+  <app-navbar></app-navbar>
   <div *ngIf="game">
     <div
       class="imagen"
@@ -19,7 +19,7 @@
       <div class="info">
         <i class="icono fa-solid fa-circle-exclamation"></i>
         <span class="new"> NEW GAME </span>
-        <br />
+        <br/>
         <span class="name">
           {{ game.name }}
         </span>
@@ -27,7 +27,8 @@
     </div>
     <div class="container">
       <div class="precio">{{ game.price }}€</div>
-      <button *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;">Añadir a favoritos</button>
+
+      <app-favoritos *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;"></app-favoritos>
 
       <a target="_blank" href="{{game.link}}"> <div class="install"><span>INSTALL GAME</span></div></a>
     </div>
