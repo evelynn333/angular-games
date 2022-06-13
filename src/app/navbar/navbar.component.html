@@ -17,8 +17,8 @@
     <a class="navbar-brand" href="#">Catálogo</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li *ngIf="this.cookie == 'admin@mail.com'" [ngStyle]="{'display': 'block'}" class="nav-item">
-          <a routerLink="/set-game">Volver</a>
+        <li *ngIf="this.cookieParseada.id == 2" [ngStyle]="{'display': 'block'}" class="nav-item">
+          <a routerLink="/set-game">Añadir juegos</a>
         </li>
       </ul>
     <form class="d-flex">
@@ -28,7 +28,7 @@
       </div>
       <i class="icono fa-regular fa-user"></i>
       <div *ngIf="!this.cookie" [ngStyle]="{'display': 'block'}"> <button  type="button" class="btn btn-primary" routerLink="/login">LOGIN</button></div>
-      <div *ngIf="this.cookie" [ngStyle]="{'display': 'block'}"><p class="usuario"> {{this.cookie}}</p></div>
+      <div *ngIf="this.cookie" [ngStyle]="{'display': 'block'}"><p class="usuario"> {{this.cookieParseada.email}}</p></div>
       <div *ngIf="this.cookie" [ngStyle]="{'display': 'block'}"><button type="button" (click)="logout()" class="btn btn-light">Logout</button></div>
     </form>
   </div>

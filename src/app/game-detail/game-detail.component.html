@@ -28,7 +28,7 @@
     <div class="container">
       <div class="precio">{{ game.price }}€</div>
 
-      <app-favoritos *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;"></app-favoritos>
+      <button *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;">Añadir a favoritos</button>
 
       <a target="_blank" href="{{game.link}}"> <div class="install"><span>INSTALL GAME</span></div></a>
     </div>

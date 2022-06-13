@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
       });
       if(user){
         alert('Login correcto!');
-        localStorage.setItem('usuario', user.email);
+        localStorage.setItem('usuario', JSON.stringify(user));
         this.loginForm.reset();
       this.router.navigate([""])
       }else{
