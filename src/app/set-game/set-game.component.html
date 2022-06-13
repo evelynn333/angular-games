@@ -27,8 +27,13 @@
         <input type="text" formControlName="link" required
           class="form-control" id="exampleInputPassword1"/>
       </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Imagen portada...</label>
+        <input type="file" (change)="fileEvent($event)" formControlName="img" required
+          class="form-control" id="exampleInputPassword1"/>
+      </div>
       <div class="span">
-        <button class="btn btn-primary">Guardar</button>
+        <button>Guardar</button>
         <br />
         <br />
         <a routerLink="/">Volver</a>

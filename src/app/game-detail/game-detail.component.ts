@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Game } from '../game';
 import { GameService } from '../game.service';
+import { Usuario } from '../usuario';
 
 
 @Component({
@@ -11,7 +12,10 @@ import { GameService } from '../game.service';
 })
 export class GameDetailComponent implements OnInit {
   @Input() game?: Game;
-  cookie = localStorage.getItem('usuario');
+  @Input() usuario?: Usuario;
+  cookie:any = localStorage.getItem('usuario');
+  cookieParseada = JSON.parse(this.cookie);
+
 
   constructor(
     private gameServcice: GameService,
@@ -27,6 +31,11 @@ export class GameDetailComponent implements OnInit {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.gameServcice.getGame(id).subscribe((game) => (this.game = game));
   }
+  
 
+  anadirFav(){
 
-}
+   }
+
+  }
+

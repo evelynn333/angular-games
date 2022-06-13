@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SetGameComponent implements OnInit {
   public signUpForm!: FormGroup;
+  public archivos : any = []
   constructor(
     private formBuilder: FormBuilder,
     private http: HttpClient,
@@ -38,4 +39,10 @@ export class SetGameComponent implements OnInit {
       alert("Algo ha ido mal")
     })
   }
+  fileEvent(event:any) {
+    const archivoCapturado = event.target.files[0];
+    console.log(archivoCapturado.name)
+    return archivoCapturado.name;
+  }
+ 
 }

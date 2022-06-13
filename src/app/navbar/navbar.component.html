@@ -17,9 +17,11 @@
     <a class="navbar-brand" href="#">Catálogo</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div *ngIf="this.cookie" [ngStyle]="{'display': 'block'}">
         <li *ngIf="this.cookieParseada.id == 2" [ngStyle]="{'display': 'block'}" class="nav-item">
           <a routerLink="/set-game">Añadir juegos</a>
         </li>
+      </div>
       </ul>
     <form class="d-flex">
       <i class="icono fa-solid fa-magnifying-glass"></i>

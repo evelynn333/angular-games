@@ -15,11 +15,9 @@
       "id": 2
     }
   ],
-  "fav":[
-    {
-
-  }
-],
+  "favs": [
+    {}
+  ],
   "games": [
     {
       "id": 1,
@@ -180,16 +178,6 @@
       "imgDescri": "ragDetails.jpg",
       "imgDetalle": "ragDescri.jpg",
       "link": "https://www.instant-gaming.com/es/9312-comprar-god-of-war-ragnarok-pc-juego/"
-    },
-    {
-      "id": 17,
-      "name": "ee",
-      "img": "e",
-      "price": "2",
-      "descri": "dddd",
-      "imgDescri": "e",
-      "imgDetalle": "e",
-      "link": "ee"
     }
   ]
 }
