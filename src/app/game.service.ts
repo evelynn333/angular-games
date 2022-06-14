@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { map, Observable, BehaviorSubject } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Game } from './game';
 @Injectable({
@@ -8,10 +8,16 @@ import { Game } from './game';
 export class GameService {
   private gamesUrl = 'http://localhost:3000/games';
   private usersUrl = 'http://localhost:3000/users';
-  constructor(private http: HttpClient) {
-   }
+  public favourites$ : Observable <any> = new Observable();
+  private favouriteSubject: BehaviorSubject<any>
 
-   
+  constructor(private http: HttpClient) {
+    this.favouriteSubject = new BehaviorSubject<any>( this.listenFavourites());
+    this.favourites$ = this.favouriteSubject.asObservable() as any;
+   }
+   cookie:any = localStorage.getItem('usuario');
+   cookieParseada = JSON.parse(this.cookie);
+
   getGames(): Observable<Game[]> {
     return this.http.get<Game[]>(this.gamesUrl);
   }
@@ -19,6 +25,15 @@ export class GameService {
     const url = `${this.gamesUrl}/${id}`;
     return this.http.get<Game>(url);
   }
-
-
+  addFavoritos(idUser: number, idGame: number): Observable<any>{
+    const body = { idUser, idGame};
+    return this.http.post("http://localhost:3000/favs", body)
+  }
+  listenFavourites(): Observable <any>{
+    return new Observable (observer =>  {this.http.get("http://localhost:3000/favs").pipe(
+      //filter(data =>data['idUser'] === this.cookieParseada.id),
+      map((data: any[]) => data.filter(d => d.idUser === this.cookieParseada.id))
+   ).subscribe(data =>{ return observer.next(data) } )
+  })
+   }
 }

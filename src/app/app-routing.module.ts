@@ -5,6 +5,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SetGameComponent } from './set-game/set-game.component';
+import { FavoritosComponent } from './favoritos/favoritos.component';
 const routes: Routes = [
   { path: '', component: HomepageComponent },
   {path:"", redirectTo:"login", pathMatch:"full"},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:"registro", component:RegistroComponent},
   { path: 'game/:id', component: GameDetailComponent },
   {path:"set-game", component: SetGameComponent},
+  {path:"favoritos", component: FavoritosComponent}
 ];
 
 @NgModule({

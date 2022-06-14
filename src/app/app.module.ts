@@ -14,6 +14,7 @@ import { SearchPipe } from './pipes/search.pipe';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SetGameComponent } from './set-game/set-game.component';
+import { FavoritosComponent } from './favoritos/favoritos.component';
 
 
 
@@ -29,6 +30,7 @@ import { SetGameComponent } from './set-game/set-game.component';
     LoginComponent,
     RegistroComponent,
     SetGameComponent,
+    FavoritosComponent,
   ],
   imports: [
     BrowserModule,

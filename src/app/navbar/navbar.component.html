@@ -22,6 +22,9 @@
           <a routerLink="/set-game">Añadir juegos</a>
         </li>
       </div>
+        <li  *ngIf="cookie && favourites?.length" [ngStyle]="{'display': 'block'}" class="nav-item">
+          <a routerLink="/favoritos">Ver mis favoritos</a>
+        </li>
       </ul>
     <form class="d-flex">
       <i class="icono fa-solid fa-magnifying-glass"></i>
