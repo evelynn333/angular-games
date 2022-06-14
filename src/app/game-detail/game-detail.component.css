@@ -125,3 +125,27 @@ a{
   font-weight: bold;
   color: white;
 }
+
+.add {
+  width: 213px;
+  height: 66px;
+  border-radius: 4px;
+  background-color: rgb(74, 74, 74) ;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 500px;
+  text-align: center;
+  line-height: 43px;
+  border: 2px solid gray;
+}
+.add > span {
+  width: 152px;
+  height: 16px;
+  font-size: 13px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  background-color:rgb(74, 74, 74) ;
+}

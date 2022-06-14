@@ -31,7 +31,6 @@ export class GameService {
   }
   listenFavourites(): Observable <any>{
     return new Observable (observer =>  {this.http.get("http://localhost:3000/favs").pipe(
-      //filter(data =>data['idUser'] === this.cookieParseada.id),
       map((data: any[]) => data.filter(d => d.idUser === this.cookieParseada.id))
    ).subscribe(data =>{ return observer.next(data) } )
   })
