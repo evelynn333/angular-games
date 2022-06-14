@@ -19,17 +19,27 @@
           id="exampleInputEmail1" aria-describedby="emailHelp" />
       </div>
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Descripción del juego...</label>
-        <textarea class="form-control is-invalid" formControlName="descri" id="descri" placeholder="Descripción..." required></textarea>
-      </div>
-      <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Link de descarga...</label>
         <input type="text" formControlName="link" required
           class="form-control" id="exampleInputPassword1"/>
       </div>
       <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Descripción del juego...</label>
+        <textarea class="form-control" formControlName="descri" id="descri" placeholder="Descripción..." required></textarea>
+      </div>
+      <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Imagen portada...</label>
-        <input type="file" (change)="fileEvent($event)" formControlName="img" required
+        <input type="file" (change)="fileEvent($event)" required
+          class="form-control" id="exampleInputPassword1"/>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Imagen banner...</label>
+        <input type="file" (change)="fileEvent1($event)" required
+          class="form-control" id="exampleInputPassword1"/>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Imagen descripcion...</label>
+        <input type="file" (change)="fileEvent2($event)" required
           class="form-control" id="exampleInputPassword1"/>
       </div>
       <div class="span">

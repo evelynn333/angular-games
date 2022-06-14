@@ -36,11 +36,13 @@ export class GameDetailComponent implements OnInit {
         this.gameServcice
           .getFavs()
           .subscribe(() => alert('Juego añadido a favoritos'));
+
       },
       (error) => {
         alert('Algo ha ido mal');
       }
     );
+   
   }
   delete(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));

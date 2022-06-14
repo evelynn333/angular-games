@@ -25,8 +25,10 @@ export class SetGameComponent implements OnInit {
       descri: [''],
       imgDescri: [''],
       imgDetalle: [''],
-      imgBase64: [''],
       link: [''],
+      imgBase64: [''],
+      img1Base64: [''],
+      img2Base64: [''],
     });
   }
 
@@ -52,6 +54,26 @@ export class SetGameComponent implements OnInit {
     reader.onload = () => {
       const { imgBase64 } = this.signUpForm.controls;
       imgBase64.setValue(reader.result);
+    };
+  }
+  fileEvent1(event: any) {
+    const file = event.target.files[0];
+    console.log(file);
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => {
+      const { img1Base64 } = this.signUpForm.controls;
+      img1Base64.setValue(reader.result);
+    };
+  }
+  fileEvent2(event: any) {
+    const file = event.target.files[0];
+    console.log(file);
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => {
+      const { img2Base64 } = this.signUpForm.controls;
+      img2Base64.setValue(reader.result);
     };
   }
 }

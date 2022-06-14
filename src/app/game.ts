@@ -7,4 +7,7 @@ export interface Game {
   imgDescri: string;
   imgDetalle: string;
   link: string;
+  imgBase64: string;
+  img1Base64: string;
+  img2Base64: string;
 }

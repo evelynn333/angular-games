@@ -14,12 +14,11 @@
   <div *ngIf="game">
     <div
       class="imagen"
-      style="background-image: url('assets/images/{{game.imgDescri}} ')"
-    >
+      style="background-image: url('  assets/images/{{ game.imgDescri }} ')">
       <div class="info">
         <i class="icono fa-solid fa-circle-exclamation"></i>
         <span class="new"> NEW GAME </span>
-        <br/>
+        <br />
         <span class="name">
           {{ game.name }}
         </span>
@@ -28,13 +27,26 @@
     <div class="container">
       <div class="precio">{{ game.price }}€</div>
 
-      <i  *ngIf="this.cookieParseada.id == 2" [ngStyle]="{'display': 'block'}" (click)="delete()" class="icon fa-solid fa-trash"></i>
-      <button class="add" (click)="anadirFav()" *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;"><span class="addf">ADD TO FAVORITES</span></button>
-      <a target="_blank" href="{{game.link}}"> <div class="install"><span>INSTALL GAME</span></div></a>
+      <i *ngIf="this.cookieParseada.id == 2"
+        [ngStyle]="{ display: 'block' }"
+        (click)="delete()"
+        class="icon fa-solid fa-trash"></i>
+      <button
+        class="add"
+        (click)="anadirFav()"
+        *ngIf="this.cookie"
+        [ngStyle]="{ display: 'block' }"
+        style="color: white">
+        <span class="addf">ADD TO FAVORITES</span>
+      </button>
+      <a target="_blank" href="{{ game.link }}">
+        <div class="install"><span>INSTALL GAME</span></div></a>
     </div>
     <div class="cuerpo">
       <div class="imageDescri">
-        <img src="assets/images/{{game.imgDetalle}} " alt="imagenKratos" />
+        <img
+          src="{{ game.img1Base64 || 'assets/images/' + game.imgDetalle }}"
+          alt="imagenKratos"/>
       </div>
       <span class="descri">{{ game.descri }} </span>
     </div>
