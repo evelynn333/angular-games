@@ -3,13 +3,12 @@
   box-sizing: border-box;
   background-color: #030616;
 }
+
 .imagen {
   width: 1920px;
   height: 819px;
   background-size: cover;
   display: flex;
-
-
 }
 
 .icono {
@@ -18,10 +17,10 @@
   height: 29px;
   background-color: rgba(0, 0, 0, 0);
 }
-button{
+button {
   background-color: rgba(0, 0, 0, 0);
 }
-footer{
+footer {
   color: white;
   text-align: center;
   margin-bottom: 5px;
@@ -36,7 +35,7 @@ footer{
   color: white;
   background-color: rgba(0, 0, 0, 0);
 }
-a{
+a {
   background-color: rgba(0, 0, 0, 0);
 }
 .name {
@@ -72,12 +71,11 @@ a{
   font-size: 48px;
   background-color: #24262e;
 }
-.info{
+.info {
   margin-left: 70px;
   background-color: rgba(0, 0, 0, 0);
 
   margin-top: 550px;
-
 }
 .install {
   width: 213px;
@@ -98,7 +96,7 @@ a{
   display: inline-block;
   vertical-align: middle;
   color: white;
-  background-color:#1d20cb ;
+  background-color: #1d20cb;
 }
 .cuerpo {
   display: flex;
@@ -108,9 +106,8 @@ a{
   height: 473px;
   margin: 73px 31px 0 350px;
   object-fit: contain;
-
 }
-.imageDescri > img{
+.imageDescri > img {
   border-radius: 10px;
   width: 473px;
   height: 473px;
@@ -130,7 +127,7 @@ a{
   width: 213px;
   height: 66px;
   border-radius: 4px;
-  background-color: rgb(74, 74, 74) ;
+  background-color: rgb(74, 74, 74);
   margin-top: 32px;
   margin-bottom: 32px;
   margin-left: 500px;
@@ -147,5 +144,17 @@ a{
   display: inline-block;
   vertical-align: middle;
   color: white;
-  background-color:rgb(74, 74, 74) ;
+  background-color: rgb(74, 74, 74);
+}
+
+
+.icon {
+  font-size: 30px;
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 50px;
+
+}
+.icon:hover{
+  color: rgb(126, 0, 0);
 }

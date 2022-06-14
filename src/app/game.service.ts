@@ -25,13 +25,17 @@ export class GameService {
     const url = `${this.gamesUrl}/${id}`;
     return this.http.get<Game>(url);
   }
+  deleteGame(id: number): Observable<Game> {
+    const url = `${this.gamesUrl}/${id}`;
+    return this.http.delete<Game>(url);
+  }
   addFavoritos(idUser: number, game: any): Observable<any>{
     const body = { idUser, game};
     return this.http.post("http://localhost:3000/favs", body)
   }
   listenFavourites(): Observable <any>{
     return new Observable (observer =>  {this.http.get("http://localhost:3000/favs").pipe(
-      map((data: any[]) => data.filter(d => d.idUser === this.cookieParseada.id))
+      map((data: any[]) => data.filter(d => d.idUser === this.cookieParseada?.id))
    ).subscribe(data =>{ return observer.next(data) } )
   })
    }

@@ -2,7 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Game } from '../game';
 import { GameService } from '../game.service';
-import { Usuario } from '../usuario';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-game-detail',
   templateUrl: './game-detail.component.html',
@@ -12,10 +13,11 @@ export class GameDetailComponent implements OnInit {
   @Input() game?: Game;
   cookie:any = localStorage.getItem('usuario');
   cookieParseada = JSON.parse(this.cookie);
-  
+
   constructor(
     private gameServcice: GameService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -37,5 +39,9 @@ export class GameDetailComponent implements OnInit {
       alert("Algo ha ido mal")
     })
    }
-
+   delete(): void {
+    const id = Number(this.route.snapshot.paramMap.get('id'));
+    this.gameServcice.deleteGame(id).subscribe((game) => ( this.game =  game));
+    this.router.navigate([""])
+  }
   }

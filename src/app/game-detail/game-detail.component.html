@@ -28,8 +28,8 @@
     <div class="container">
       <div class="precio">{{ game.price }}€</div>
 
-      <button class="add" (click)="anadirFav()" *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;"><span>ADD TO FAVORITES</span></button>
-
+      <i  *ngIf="this.cookieParseada.id == 2" [ngStyle]="{'display': 'block'}" (click)="delete()" class="icon fa-solid fa-trash"></i>
+      <button class="add" (click)="anadirFav()" *ngIf="this.cookie" [ngStyle]="{'display': 'block'}" style="color: white;"><span class="addf">ADD TO FAVORITES</span></button>
       <a target="_blank" href="{{game.link}}"> <div class="install"><span>INSTALL GAME</span></div></a>
     </div>
     <div class="cuerpo">
