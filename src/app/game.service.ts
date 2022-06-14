@@ -25,8 +25,8 @@ export class GameService {
     const url = `${this.gamesUrl}/${id}`;
     return this.http.get<Game>(url);
   }
-  addFavoritos(idUser: number, idGame: number): Observable<any>{
-    const body = { idUser, idGame};
+  addFavoritos(idUser: number, game: any): Observable<any>{
+    const body = { idUser, game};
     return this.http.post("http://localhost:3000/favs", body)
   }
   listenFavourites(): Observable <any>{

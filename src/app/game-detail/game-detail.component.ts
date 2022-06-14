@@ -27,11 +27,13 @@ export class GameDetailComponent implements OnInit {
   }
   getGame(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.gameServcice.getGame(id).subscribe((game) => (this.game = game));
+    this.gameServcice.getGame(id).subscribe((game) => ( this.game =  game));
   }
   anadirFav(){
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.gameServcice.addFavoritos(this.cookieParseada.id, id)
+    this.gameServcice.getGame(id).subscribe((game) => ( this.game =  game));
+    
+    this.gameServcice.addFavoritos(this.cookieParseada.id, this.game)
     .subscribe(response=>{
       alert('Juego añadido a favoritos');
     },error=>{
