@@ -1,6 +1,6 @@
 <div class="card">
   <div class="img">
-    <img src="assets/images/{{ gameDetail.img }}" alt="{{ gameDetail.img }}" />
+    <img src="{{ gameDetail.imgBase64 || ('assets/images/' + gameDetail.img) }}" alt="{{ gameDetail.name }}" />
   </div>
   <div class="footer">
     <div class="detalles">
@@ -14,5 +14,4 @@
       <div class="button"><span> BUY NOW </span></div>
     </a>
   </div>
-  
 </div>

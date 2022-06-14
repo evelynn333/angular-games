@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class GameDetailComponent implements OnInit {
   @Input() game?: Game;
-  cookie:any = localStorage.getItem('usuario');
+  cookie: any = localStorage.getItem('usuario');
   cookieParseada = JSON.parse(this.cookie);
 
   constructor(
@@ -22,26 +22,29 @@ export class GameDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getGame();
-
   }
   getGame(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.gameServcice.getGame(id).subscribe((game) => ( this.game =  game));
+    this.gameServcice.getGame(id).subscribe((game) => (this.game = game));
   }
-  anadirFav(){
+  anadirFav() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.gameServcice.getGame(id).subscribe((game) => ( this.game =  game));
+    this.gameServcice.getGame(id).subscribe((game) => (this.game = game));
 
-    this.gameServcice.addFavoritos(this.cookieParseada.id, this.game)
-    .subscribe(response=>{
-      alert('Juego añadido a favoritos');
-    },error=>{
-      alert("Algo ha ido mal")
-    })
-   }
-   delete(): void {
+    this.gameServcice.addFavoritos(this.cookieParseada.id, this.game).subscribe(
+      (response) => {
+        this.gameServcice
+          .getFavs()
+          .subscribe(() => alert('Juego añadido a favoritos'));
+      },
+      (error) => {
+        alert('Algo ha ido mal');
+      }
+    );
+  }
+  delete(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.gameServcice.deleteGame(id).subscribe((game) => ( this.game =  game));
-    this.router.navigate([""])
+    this.gameServcice.deleteGame(id).subscribe((game) => (this.game = game));
+    this.router.navigate(['']);
   }
-  }
+}

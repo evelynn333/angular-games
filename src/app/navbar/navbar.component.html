@@ -22,7 +22,7 @@
           <a routerLink="/set-game">Añadir juegos</a>
         </li>
       </div>
-        <li  *ngIf="cookie && favourites?.length" [ngStyle]="{'display': 'block'}" class="nav-item">
+        <li  *ngIf="cookie && hasFavs" [ngStyle]="{'display': 'block'}" class="nav-item">
           <a routerLink="/favoritos">Ver mis favoritos</a>
         </li>
       </ul>

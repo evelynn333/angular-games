@@ -8,15 +8,17 @@ import { Game } from './game';
 export class GameService {
   private gamesUrl = 'http://localhost:3000/games';
   private usersUrl = 'http://localhost:3000/users';
-  public favourites$ : Observable <any> = new Observable();
-  private favouriteSubject: BehaviorSubject<any>
+  public favourites$: Observable<any> = new Observable();
+  private favouriteSubject: BehaviorSubject<any>;
 
   constructor(private http: HttpClient) {
-    this.favouriteSubject = new BehaviorSubject<any>( this.listenFavourites());
+    this.favouriteSubject = new BehaviorSubject<any>(
+      Boolean(localStorage.getItem('hasFavs'))
+    );
     this.favourites$ = this.favouriteSubject.asObservable() as any;
-   }
-   cookie:any = localStorage.getItem('usuario');
-   cookieParseada = JSON.parse(this.cookie);
+  }
+  cookie: any = localStorage.getItem('usuario');
+  cookieParseada = JSON.parse(this.cookie);
 
   getGames(): Observable<Game[]> {
     return this.http.get<Game[]>(this.gamesUrl);
@@ -29,20 +31,38 @@ export class GameService {
     const url = `${this.gamesUrl}/${id}`;
     return this.http.delete<Game>(url);
   }
-  addFavoritos(idUser: number, game: any): Observable<any>{
-    const body = { idUser, game};
-    return this.http.post("http://localhost:3000/favs", body)
+  addFavoritos(idUser: number, game: any): Observable<any> {
+    const body = { idUser, game };
+    return this.http.post('http://localhost:3000/favs', body);
   }
-  listenFavourites(): Observable <any>{
-    return new Observable (observer =>  {this.http.get("http://localhost:3000/favs").pipe(
-      map((data: any[]) => data.filter(d => d.idUser === this.cookieParseada.id))
-   ).subscribe(data =>{ return observer.next(data) } )
-  })
-   }
+  listenFavourites(): Observable<any> {
+    return new Observable((observer) => {
+      this.http
+        .get('http://localhost:3000/favs')
+        .pipe(
+          map((data: any[]) =>
+            data.filter((d) => d.idUser === this.cookieParseada.id)
+          )
+        )
+        .subscribe((data) => {
+          return observer.next(data);
+        });
+    });
+  }
 
-   getFavs(){
-    return this.http.get("http://localhost:3000/favs").pipe(
-      map((data: any[]) => data.filter(d => d.idUser === this.cookieParseada.id))
-   )
-   }
+  getFavs(): Observable<any> {
+    return new Observable((obs) =>
+      this.http
+        .get('http://localhost:3000/favs')
+        .pipe(
+          map((data: any[]) =>
+            data.filter((d) => d.idUser === this.cookieParseada.id)
+          )
+        )
+        .subscribe((favs) => {
+          localStorage.setItem('hasFavs', Boolean(favs.length).toString());
+          return obs.next(favs);
+        })
+    );
+  }
 }
