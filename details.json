@@ -36,6 +36,34 @@
         "link": "https://www.instant-gaming.com/es/7325-comprar-steam-god-of-war-pc-juego-steam/"
       },
       "id": 1
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 2,
+        "name": "God of War",
+        "img": "godWar.jpg",
+        "price": "39,95",
+        "descri": "God of War es un videojuego de acción y aventuras desarrollado por Santa Monica Studio y publicado por Sony Computer Entertainment (SCE). Lanzado por primera vez el 22 de marzo de 2005 para la consola PlayStation 2 (PS2), es la primera entrega de la serie del mismo nombre y la tercera cronológicamente. Basado libremente en la mitología griega, está ambientado en la antigua Grecia con la venganza como motivo central. El jugador controla al protagonista Kratos, un guerrero espartano que sirve a los dioses del Olimpo. La diosa Atenea le encarga a Kratos que mate a Ares, el dios de la guerra y ex mentor de Kratos que engañó a Kratos para que matara a su esposa e hija. Mientras Ares asedia Atenas por odio a Atenea, Kratos se embarca en una búsqueda para encontrar el único objeto capaz de detener al dios de una vez por todas: la Caja de Pandora.",
+        "imgDescri": "godWarDetails.jpg",
+        "imgDetalle": "kratos.jpg",
+        "link": "https://www.instant-gaming.com/es/7325-comprar-steam-god-of-war-pc-juego-steam/"
+      },
+      "id": 2
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 4,
+        "name": "The Witcher 3: Wild Hunt",
+        "img": "witcher3.jpg",
+        "price": "39,95",
+        "descri": "Es un juego de perspectiva en tercera persona, el jugador controla al protagonista Geralt de Rivia, un cazador de monstruos conocido como Lobo Blanco, es un brujo, el cual emprende un largo viaje a través de Los reinos del norte. El jugador lucha contra el peligroso mundo mediante magia y espadas, mientras interactúa con los NPC y completa tanto misiones secundarias como la misión principal de la historia, La cual es encontrar a la hija adoptiva de Geralt, Ciri, y detener la profecía del invierno blanco.",
+        "imgDescri": "witcherDetails.jpg",
+        "imgDetalle": "witcherDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/1497-comprar-gog-com-the-witcher-3-wild-hunt-game-of-the-year-edition-goty-edition-pc-juego-gog-com/"
+      },
+      "id": 3
     }
   ],
   "games": [

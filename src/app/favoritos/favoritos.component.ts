@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { GameService } from '../game.service';
 @Component({
   selector: 'app-favoritos',
   templateUrl: './favoritos.component.html',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavoritosComponent implements OnInit {
 
-  constructor() { }
+  public favoritos = [];
+  constructor(private gameservice : GameService) {}
 
   ngOnInit(): void {
+    this.getFavs();
   }
 
+  getFavs(){
+    this.gameservice.getFavs().subscribe(favoritos => this.favoritos= favoritos)
+  }
 }

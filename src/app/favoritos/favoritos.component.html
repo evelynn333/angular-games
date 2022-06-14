@@ -1,1 +1,19 @@
-<p>favoritos works!</p>
+<div class="card" *ngFor="let favorito of favoritos">
+  <div class="img">
+    <img src="assets/images/{{ favorito.game.img }}" alt="{{ favorito.game.img }}" />
+  </div>
+  <div class="footer">
+    <div class="detalles">
+      <span class="name">
+        {{ favorito.game.name }}
+      </span>
+      <br />
+      <span class="price"> {{ favorito.game.price }} USD </span>
+    </div>
+    <a routerLink="/game/{{ favorito.game.id }}">
+      <div class="button"><span> BUY NOW </span></div>
+    </a>
+  </div>
+
+</div>
+
