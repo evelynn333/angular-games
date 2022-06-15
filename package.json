@@ -11,7 +11,7 @@
     "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
   },
   "engines": {
-    "node": "v16.14.2",
+    "node": "16.14.2",
     "npm": "8.5.0"
   },
   "private": true,
