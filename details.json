@@ -23,7 +23,62 @@
     }
   ],
   "favs": [
-   
+    {
+      "idUser": 1,
+      "game": {
+        "id": 1,
+        "name": "Horizon Zero Dawn",
+        "img": "horizon.jpg",
+        "price": "49,95",
+        "descri": "Horizon Zero Dawn es un videojuego de rol con elementos de aventura en tercera persona. El juego se ambienta en un mundo post-apocalíptico compuesto por regiones rurales, zonas montañosas, bosques, desiertos y montañas nevadas. Cuenta con un ciclo diurno y nocturno, además de un sistema meteorológico dinámico. Los jugadores controlan a Aloy, una hábil arquera y cazadora de la tribu de los Nora. Con sus habilidades de combate, Aloy puede eliminar a sus enemigos de diversas maneras haciendo uso de las trampas, del arco, los explosivos y la lanza. Existen diferentes tipos de arcos de combate como: el arco de caza y de guerra (para combates a distancia media) y el arco de precisión (capaz de lanzar flechas de precisión para combates a larga distancia). El jugador puede crear diferentes tipos de flechas y municiones. Además, Aloy también cuenta con la honda.",
+        "imgDescri": "horizonDetails.jpg",
+        "imgDetalle": "horizonDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/6202-comprar-steam-horizon-zero-dawn-complete-edition-pc-juego-steam/"
+      },
+      "id": 1
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 15,
+        "name": "Jett: The Far Shore",
+        "img": "jett.jpg",
+        "price": "89,95",
+        "descri": "JETT: The Far Shore nos pone en la piel de Mei, tripulante de una nave destinada a explorar un planeta que coincide con lo descrito en unas profecías. Tras un viaje de un milenio en letargo, formará parte del equipo de apenas una decena de personas que debe iniciar el contacto con el nuevo mundo. Sus objetivos pasan por conocer mejor el entorno e informar a la nave nodriza de las condiciones que esperan al resto de viajantes, que esperan a unos kilómetros de la superficie aún dormidos.",
+        "imgDescri": "jetDetails.jpg",
+        "imgDetalle": "jetDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/9437-comprar-epic-games-jett-the-far-shore-pc-juego-epic-games/"
+      },
+      "id": 2
+    },
+    {
+      "idUser": 3,
+      "game": {
+        "id": 9,
+        "name": "Horizon: Forbidden West",
+        "img": "horizonForbidden.jpg",
+        "price": "39,95",
+        "descri": "Los jugadores controlan una vez más a Aloy, una joven guerrera y cazadora de la tribu Nora. Al igual que Horizon Zero Dawn, Aloy puede participar en misiones secundarias además de las principales, entre otras actividades. Al completar las diferentes misiones, Aloy obtiene experiencia y aumenta de nivel ganando puntos de habilidad. Estos puntos pueden distribuirse en las diferentes ramas del árbol de habilidades. Los recursos de las máquinas destruidas así como recursos de la vida natural y animal siguen siendo útiles. Con las habilidades de combate, Aloy se vale del arco, la honda, la lanza y las trampas para combatir y eliminar a sus enemigos.",
+        "imgDescri": "horizDetails.jpg",
+        "imgDetalle": "horizDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/8893-comprar-playstation-store-horizon-forbidden-west-ps5-playstation-5-juego-playstation-store/"
+      },
+      "id": 3
+    },
+    {
+      "idUser": 3,
+      "game": {
+        "id": 12,
+        "name": "Resident Evil Village",
+        "img": "resident.jpg",
+        "price": "49,95",
+        "descri": "Resident Evil Village es un juego de terror de supervivencia de 2021desarrollado y publicado por Capcom . Es la secuela de Resident Evil 7: Biohazard (2017). Los jugadores controlan a Ethan Winters , que busca a su hija secuestrada en un pueblo lleno de criaturas mutantes. Village mantiene elementos de terror de supervivencia de juegos anteriores de Resident Evil , con jugadores que buscan elementos en los entornos y administran recursos. Sin embargo, agrega una jugabilidad más orientada a la acción, con mayor cantidad de enemigos y un mayor énfasis en el combate.",
+        "imgDescri": "resiDetails.jpg",
+        "imgDetalle": "resiDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/6329-comprar-steam-resident-evil-village-pc-juego-steam/"
+      },
+      "id": 4
+    }
   ],
   "games": [
     {
