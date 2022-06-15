@@ -6,7 +6,13 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "ng build --prod",
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
+  },
+  "engines": {
+    "node": "v16.14.2",
+    "npm": "8.5.0"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +27,8 @@
     "angular-carousel": "^1.1.0",
     "angular-in-memory-web-api": "^0.13.0",
     "angular-responsive-carousel": "^2.1.2",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
     "rxjs": "~7.5.0",
     "tslib": "^2.4.0",
     "zone.js": "~0.11.4"
