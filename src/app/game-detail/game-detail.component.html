@@ -26,7 +26,7 @@
     </div>
     <div class="container">
       <div class="precio">{{ game.price }}€</div>
-      <i *ngIf="this.cookieParseada.id == 2" [ngStyle]="{ display: 'block' }" (click)="delete()" class="icon fa-solid fa-trash"></i>
+      <i *ngIf="this.cookieParseada?.id == 2" [ngStyle]="{ display: 'block' }" (click)="delete()" class="icon fa-solid fa-trash"></i>
       <button class="add" (click)="anadirFav()" *ngIf="this.cookie" [ngStyle]="{ display: 'block' }" style="color: white">
         <span class="addf">ADD TO FAVORITES</span>
       </button>

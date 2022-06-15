@@ -50,6 +50,62 @@
         "link": "https://www.instant-gaming.com/es/6202-comprar-steam-horizon-zero-dawn-complete-edition-pc-juego-steam/"
       },
       "id": 2
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 6,
+        "name": "Final Fantasy XVI",
+        "img": "fantasy.jpg",
+        "price": "29,95",
+        "descri": "Final Fantasy XVI es un videojuegojuego de rol de acción ambientado en el mundo de fantasía; Valisthea, donde la gente vive cómodamente gracias a las montañas de cristal llamadas Mothercrystals. El mundo está controlado por seis facciones: el Gran Ducado de Rosaria, el Sacro Imperio de Sanbreque, el Reino de Waloed, la República Dhalmekian, el Reino de Hierro y el Dominio Cristalino. Una parte central de la trama son los Eikons, monstruos convocados controlados o manifestados a través de humanos llamados Dominantes.",
+        "imgDescri": "finalDetail.jpg",
+        "imgDetalle": "finalDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/7025-comprar-final-fantasy-xvi-pc-juego/"
+      },
+      "id": 3
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 8,
+        "name": "Tales of Arise",
+        "img": "tales.jpg",
+        "price": "39,95",
+        "descri": "Durante 300 años, Rena ha reinado sobre Dahna, saqueando los recursos del planeta y despojando a sus habitantes de su dignidad y libertad. Nuestra historia da comienzo con dos personas, Alphen y Shionne, nacidas en mundos distintos, que buscan cambiar su destino y lograr un nuevo futuro. Con un amplio plantel de personajes, un sistema de combate intuitivo y gratificante, y una historia cautivadora ambientada en un mundo vibrante por el que vale la pena luchar, Tales of Arise nos brinda una espectacular experiencia JRPG",
+        "imgDescri": "talesDetail.jpg",
+        "imgDetalle": "talesDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/5870-comprar-steam-tales-of-arise-pc-juego-steam/"
+      },
+      "id": 4
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 9,
+        "name": "Horizon: Forbidden West",
+        "img": "horizonForbidden.jpg",
+        "price": "39,95",
+        "descri": "Los jugadores controlan una vez más a Aloy, una joven guerrera y cazadora de la tribu Nora. Al igual que Horizon Zero Dawn, Aloy puede participar en misiones secundarias además de las principales, entre otras actividades. Al completar las diferentes misiones, Aloy obtiene experiencia y aumenta de nivel ganando puntos de habilidad. Estos puntos pueden distribuirse en las diferentes ramas del árbol de habilidades. Los recursos de las máquinas destruidas así como recursos de la vida natural y animal siguen siendo útiles. Con las habilidades de combate, Aloy se vale del arco, la honda, la lanza y las trampas para combatir y eliminar a sus enemigos.",
+        "imgDescri": "horizDetails.jpg",
+        "imgDetalle": "horizDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/8893-comprar-playstation-store-horizon-forbidden-west-ps5-playstation-5-juego-playstation-store/"
+      },
+      "id": 5
+    },
+    {
+      "idUser": 1,
+      "game": {
+        "id": 15,
+        "name": "Jett: The Far Shore",
+        "img": "jett.jpg",
+        "price": "89,95",
+        "descri": "JETT: The Far Shore nos pone en la piel de Mei, tripulante de una nave destinada a explorar un planeta que coincide con lo descrito en unas profecías. Tras un viaje de un milenio en letargo, formará parte del equipo de apenas una decena de personas que debe iniciar el contacto con el nuevo mundo. Sus objetivos pasan por conocer mejor el entorno e informar a la nave nodriza de las condiciones que esperan al resto de viajantes, que esperan a unos kilómetros de la superficie aún dormidos.",
+        "imgDescri": "jetDetails.jpg",
+        "imgDetalle": "jetDescri.jpg",
+        "link": "https://www.instant-gaming.com/es/9437-comprar-epic-games-jett-the-far-shore-pc-juego-epic-games/"
+      },
+      "id": 6
     }
   ],
   "games": [
