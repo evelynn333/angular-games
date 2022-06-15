@@ -30,19 +30,17 @@ export class GameDetailComponent implements OnInit {
   anadirFav() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.gameServcice.getGame(id).subscribe((game) => (this.game = game));
-
     this.gameServcice.addFavoritos(this.cookieParseada.id, this.game).subscribe(
       (response) => {
         this.gameServcice
           .getFavs()
           .subscribe(() => alert('Juego añadido a favoritos'));
-
       },
       (error) => {
         alert('Algo ha ido mal');
       }
     );
-   
+
   }
   delete(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
