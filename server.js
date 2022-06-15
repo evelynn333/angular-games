@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/dist/angular-games'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/MY_APP_NAME/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/angular-games/index.html'));
 });
 
 // default Heroku port
