@@ -14,7 +14,7 @@
   <div *ngIf="game">
     <div
       class="imagen"
-      style="background-image: url('  assets/images/{{ game.imgDescri }} ')">
+      style="background-image: url('{{game.img1Base64}} '), url('assets/images/{{ game.imgDescri }} ') ">
       <div class="info">
         <i class="icono fa-solid fa-circle-exclamation"></i>
         <span class="new"> NEW GAME </span>
@@ -45,7 +45,7 @@
     <div class="cuerpo">
       <div class="imageDescri">
         <img
-          src="{{ game.img1Base64 || 'assets/images/' + game.imgDetalle }}"
+          src="{{ game.img2Base64 || 'assets/images/' + game.imgDetalle }}"
           alt="imagenKratos"/>
       </div>
       <span class="descri">{{ game.descri }} </span>
